@@ -1,0 +1,95 @@
+/* Estilização geral ----------------------------------------- */
+@import url(../css/main-style.css);
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen-03-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+header {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* Botões de login com outras contas ------------------------- */
+#account-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.login-with-account-buttons {
+    background-color: #fff;
+    font-size: 15px;
+    color: #000;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.login-with-account-buttons:hover {
+    background-color: #DDDDDD;
+}
+
+.other-account-logos {
+    max-width: 20px;
+    height: auto;
+}
+
+
+/* Botão de login com email ---------------------------------- */
+#email-button-container {
+    margin-top: 40px;
+}
+
+#login-with-email-button {
+    background-color: #FF6064;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 120px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#login-with-email-button:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Levar para página de cadastro ----------------------------- */
+#sign-up-container {
+    margin-top: 20px;
+}
+
+#sign-up-link {
+    color: #FF6064;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#sign-up-link:hover {
+    font-weight: bold;
+}
