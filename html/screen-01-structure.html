@@ -7,21 +7,30 @@
     
     <title>Apresentação – Pomo</title>
 
+    <link rel="stylesheet" href="../css/screen-01-style.css">
+
 </head>
 
 <body>
     
-    <div id="screen-01-items">
-
+    <main id="screen-01-items">
         <figure>
-            <img src="../assets/screen-01-img.svg" alt="Imagem da tela 01">
+            <img src="../assets/screen-01-img.svg" alt="Imagem da tela 01" id="screen-01-illustration">
         </figure>
 
-        <p>Easy task & work management with Pomo</p>
+        <div class="container">
+            <p>Easy task & work management with Pomo</p>
+    
+            <ul class="pagination">
+                <li data-page="screen-01" class="active"></li>
+                <li data-page="screen-02"></li>
+                <li data-page="screen-03"></li>
+            </ul>
+    
+            <button id="next-button">Next</button>
+        </div>
 
-        <button>Next</button>
-
-    </div>
+    </main>
 
 </body>
 </html>
