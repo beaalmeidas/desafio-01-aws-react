@@ -1,0 +1,25 @@
+body {
+    background-color: #ff6064;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Div com a logo e o gif de carregamento */
+.loading-page-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    align-items: center;
+}
+
+.img-pomo-logo {
+    max-width: 200px;
+}
+
+.loading-gif {
+    max-width: 50px;
+}
