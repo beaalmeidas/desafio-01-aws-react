@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-#screen-03-items {
+#login-pg-items {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@ header {
     color: white;
     border: none;
     border-radius: 50px;
-    padding: 10px 120px;
+    padding: 10px 100px;
     cursor: pointer;
     transition: box-shadow 0.2s;
 }
