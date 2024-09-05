@@ -24,11 +24,15 @@ header {
 
 
 /* Botões de login com outras contas ------------------------- */
+a {
+    text-decoration: none;
+}
+
 #account-buttons-container {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 15px;
+    gap: 20px;
     margin-bottom: 40px;
 }
 
@@ -46,6 +50,7 @@ header {
     justify-content: center;
     gap: 10px;
     flex-grow: 1;
+    width: 100%;
 }
 
 .login-with-account-buttons:hover {
