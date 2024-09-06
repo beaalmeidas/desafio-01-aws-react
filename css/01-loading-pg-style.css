@@ -1,3 +1,4 @@
+/* Estilização geral ----------------------------------------- */
 body {
     background-color: #ff6064;
     margin: 0;
@@ -7,7 +8,8 @@ body {
     align-items: center;
 }
 
-/* Div com a logo e o gif de carregamento */
+
+/* Logo e gif de carregamento -------------------------------- */
 .loading-page-items {
     display: flex;
     flex-direction: column;
