@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../css/07-account-created-style.css">
 
-    <title>Document</title>
+    <title>Account – Pomo</title>
 </head>
 
 <body>
@@ -16,15 +16,22 @@
 
         <div id="img-msg-container">
             <p>Congratulations!</p>
-            <img src="../assets/account-created-img.svg" alt="Account Created Illustration">
+            
+            <img src="../assets/account-created-img.svg" alt="Account Created Illustration" id="account-created-illustration">
         </div>
 
         <div id="info-container">
+            <p>Your account was created successfully.</p>
 
             <div id="account-card">
-                <img src="" alt="">
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" id="profile-pic-placeholder">
+                <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/>
+                </svg>
             </div>
 
+            <a href="../html/05-login-pg-structure.html">
+                <button id="login-pg-button">Go to Log-in</button>
+            </a>
         </div>
 
     </main>
