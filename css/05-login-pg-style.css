@@ -23,6 +23,28 @@ header {
 }
 
 
+/* Seta de navegação ----------------------------------------- */
+.back-arrow {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    fill: #000;
+    transition: fill 0.2s ease-in-out;
+}
+
+.back-arrow:hover .svg-icon {
+    fill: #FF6064;
+}
+
+
 /* Botões de login com outras contas ------------------------- */
 a {
     text-decoration: none;
