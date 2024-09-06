@@ -59,12 +59,25 @@ body {
 }
 
 #account-card {
+    position: relative;
     background-color: #fff;
+    width: 500px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
     margin-bottom: 60px;
+    display: flex;
+    align-items: center;
 }
 
-
 /* Ícone da foto de perfil ---------------------------------- */
+#profile-pic-placeholder {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .svg-icon {
     width: 80px;
     height: 80px;
