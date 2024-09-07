@@ -13,28 +13,44 @@
 <body>
     
     <main id="account-created-pg-items">
-
-        <div id="img-msg-container">
-            <p>Congratulations!</p>
+        <div id="congratulations-container">
+            <div>
+                <p id="congratulations-title" >Congratulations!</p>
+                <p id="congratulations-text">Your account was created successfully.</p>
+            </div>
             
-            <img src="../assets/account-created-img.svg" alt="Account Created Illustration" id="account-created-illustration">
+            <img id="account-created-illustration" src="../assets/account-created-img.svg" alt="Welcome Illustration">
         </div>
 
-        <div id="info-container">
-            <p>Your account was created successfully.</p>
-
-            <div id="account-card">
-                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" id="profile-pic-placeholder">
-                <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/>
-                </svg>
+        <div id="msg-and-info-container">
+            <img id="pomo-logo" src="../assets/pomo-logo.svg" alt="Pomo Logo">
+            
+            <div id="welcome-msg-container">
+                <p id="welcome-title" >Welcome to Pomo!</p>
+                <p>We're excited to have you on board and help you boost your productivity. <br> Whether you're setting goals or managing your time, Pomo is here to support your journey.</p>
+                <p><b> Log in now to get started. </b></p>
             </div>
 
-            <a href="../html/05-login-pg-structure.html">
-                <button id="login-pg-button">Go to Log-in</button>
-            </a>
-        </div>
+            <div id="account-card">
+                <div id="profile-pic-placeholder-wrapper">
+                    <svg id="profile-pic-placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/>
+                    </svg>
+                </div>
 
+                <div id="account-info">
+                    <p id="name-info"></p>
+                    <p id="email-info"></p>
+                </div>
+
+                <a href="../html/05-login-pg-structure.html">
+                    <button id="login-pg-button">Go to Log-in</button>
+                </a>
+            </div>
+        </div>
     </main>
+
+    <script src="../js/07-account-created-script.js"></script>
 
 </body>
 </html>

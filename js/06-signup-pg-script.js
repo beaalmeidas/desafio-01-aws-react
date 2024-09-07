@@ -1,44 +1,17 @@
-// Validação dos dados do formulário de cadastro de conta
+// Validating the form data
 document.getElementById('registration-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
-    let isInfoValid = true;
+    const fullName = document.getElementById('full-name').value;
+    const email = document.getElementById('email-address').value;
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirm-password').value;
     
-    const emailInput = document.getElementById('email-address');
-    const emailError = document.getElementById('email-error');
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(emailInput.value)) {
-        emailInput.classList.add('error');
-        emailError.style.display = 'block';
-        isInfoValid = false;
-    } else {
-        emailInput.classList.remove('error');
-    emailError.style.display = 'none';
-}
+    if (password !== confirmPassword) {
+        alert('Passwords do not match!');
+        return;
+    }
 
-const passwordInput = document.getElementById('password');
-const passwordError = document.getElementById('password-error');
-if (passwordInput.value.length < 8) {
-    passwordInput.classList.add('error');
-    passwordError.style.display = 'block';
-    isInfoValid = false;
-} else {
-    passwordInput.classList.remove('error');
-passwordError.style.display = 'none';
-}
-
-const confirmPasswordInput = document.getElementById('confirm-password');
-const confirmPasswordError = document.getElementById('confirm-password-error');
-if (confirmPasswordInput.value !== passwordInput.value) {
-    confirmPasswordInput.classList.add('error');
-    confirmPasswordError.style.display = 'block';
-    isInfoValid = false;
-} else {
-    confirmPasswordInput.classList.remove('error');
-confirmPasswordError.style.display = 'none';
-}
-
-if (isInfoValid) {
-    document.getElementById('registration-form').submit();
-}
+    const queryString = `?full-name=${encodeURIComponent(fullName)}&email-address=${encodeURIComponent(email)}`;
+    window.location.href = `../html/07-account-created-structure.html${queryString}`;
 });
