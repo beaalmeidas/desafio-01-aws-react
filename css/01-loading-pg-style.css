@@ -1,4 +1,4 @@
-/* Estilização geral ----------------------------------------- */
+/* GENERAL STYLING ------------------------------------------- */
 body {
     background-color: #ff6064;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Logo e gif de carregamento -------------------------------- */
+/* LOGO AND LOADING GIF -------------------------------------- */
 .loading-page-items {
     display: flex;
     flex-direction: column;
@@ -19,9 +19,65 @@ body {
 }
 
 .img-pomo-logo {
-    max-width: 200px;
+    max-width: 20vw;
 }
 
 .loading-gif {
-    max-width: 50px;
+    max-width: 5vw;
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 375px AND LARGER ------------- */
+@media (min-width: 375px) {
+    .loading-page-items {
+        height: 60%;
+    }
+    .img-pomo-logo {
+        max-width: 50vw;
+    }
+    .loading-gif {
+        max-width: 15vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 768px ------------------------ */
+@media (min-width: 768px) {
+    .loading-page-items {
+        height: 55%;
+    }
+    .img-pomo-logo {
+        max-width: 30vw;
+    }
+    .loading-gif {
+        max-width: 10vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1024px ------------------------ */
+@media (min-width: 1024px) {
+    .loading-page-items {
+        height: 60%;
+    }
+    .img-pomo-logo {
+        max-width: 25vw;
+    }
+    .loading-gif {
+        max-width: 8vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1440px ------------------------ */
+@media (min-width: 1440px) {
+    .loading-page-items {
+        height: 60%;
+    }
+    .img-pomo-logo {
+        max-width: 20vw;
+    }
+    .loading-gif {
+        max-width: 5vw;
+    }
 }
