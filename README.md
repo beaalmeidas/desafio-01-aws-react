@@ -2,18 +2,18 @@
 
 O projeto foi desenvolvido como o 1° desafio do Programa de Bolsas Compass UOL, em HTML, CSS e JavaScript puros.
 
-🇺🇸: This project was developed as the 1st challenge of the Compass UOL Scholarship Program, using pure HTML, CSS, and JavaScript.
+EN: This project was developed as the 1st challenge of the Compass UOL Scholarship Program, using pure HTML, CSS, and JavaScript.
 
 ---
 
-### Componentes / Components
+## Componentes / Components
 - Tela de carregamento
 - 3 telas de apresentação
 - Tela de login
 - Tela de criação de conta
 - Tela de conta criada
 
-🇺🇸:
+EN:
 - Loading screen
 - 3 presentation screens
 - Login screen
@@ -22,7 +22,7 @@ O projeto foi desenvolvido como o 1° desafio do Programa de Bolsas Compass UOL,
 
 ---
 
-### Como usar
+## Como usar / How to run
 **1. Clone o repositório / Clone the repository:**
 ```
 git clone https://github.com/beaalmeidas/desafio-01-aws-react.git
@@ -32,9 +32,9 @@ git clone https://github.com/beaalmeidas/desafio-01-aws-react.git
 
 ---
 
-### Capturas de tela / Screenshots
+## Capturas de tela / Screenshots
 
-#### Desktop:
+### Desktop:
 <table>
   <tr>
     <td><img src="/Pomo%20Project%20Screenshots/Desktop%20Screenshots/01-Loading-PomoDesktop.png" alt="Desktop loading screen" width="300"></td>
@@ -79,5 +79,5 @@ git clone https://github.com/beaalmeidas/desafio-01-aws-react.git
 ---
 
 ### Autora / Author
-Beatriz Almeida de Souza Silva
+Beatriz Almeida de Souza Silva <br>
 September 2024
