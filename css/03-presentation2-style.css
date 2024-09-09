@@ -128,7 +128,7 @@ body {
 
     .back-arrow{
         position: absolute;
-        top: 10vh;
+        top: 7vh;
         left: 5vh;
         display: flex;
         align-items: center;
