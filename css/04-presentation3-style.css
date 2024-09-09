@@ -1,4 +1,4 @@
-/* Estilização geral ----------------------------------------- */
+/* GENERAL STYLING ------------------------------------------- */
 @import url(../css/main-style.css);
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 
-/* Seta de navegação ----------------------------------------- */
+/* ARROW TO THE PREVIOUS SCREEN ------------------------------ */
 .back-arrow {
     position: absolute;
     top: 80px;
@@ -40,13 +40,13 @@ body {
 }
 
 
-/* Ilustração ------------------------------------------------ */
+/* ILLUSTRATION ---------------------------------------------- */
 #presentation3-illustration {
     max-width: 400px;
 }
 
 
-/* Texto, paginação e botão ---------------------------------- */
+/* CONTAINER WITH PAGINATION AND NEXT BUTTON ----------------- */
 .container {
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 }
 
 
-/* Indicadores de paginação ---------------------------------- */
+/* PRESENTATION PROGRESS INDICATORS -------------------------- */
 .pagination {
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ body {
 }
 
 
-/* Botão 'Next' ---------------------------------------------- */
+/* BUTTON TO THE NEXT SCREEN --------------------------------- */
 #next-button {
     background-color: #FF6064;
     font-size: 13px;

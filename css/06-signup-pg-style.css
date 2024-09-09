@@ -81,6 +81,12 @@ input::placeholder {
     font-family: inherit;
 }
 
+#error-message {
+    color: red;
+    text-align: center;
+    display: none;
+}
+
 
 /* FORM BUTTONS ---------------------------------------------- */
 #form-buttons-container {
@@ -178,6 +184,10 @@ input::placeholder {
         font-size: 14px;
         width: calc(100% - 60px);
         margin: 0 auto;
+    }
+
+    #error-message {
+        margin-left: 2.5vh;
     }
 
     #form-buttons-container {
