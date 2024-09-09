@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/06-signup-pg-style.css">
+    
+    <title>Sign up – Pomo</title>
+</head>
+
+<body>
+    
+    <main id="signup-pg-items">
+        <figure id="logo-container">
+            <img id="pomo-logo" src="../assets/logos/pomo-logo.svg" alt="Pomo Logo">
+        </figure>
+
+        <!-- Form for user registration -->
+        <div id="form-container">
+            <header id="form-header">
+                <p>Create your account</p>
+            </header>
+
+            <form action="../html/07-account-created-structure.html" method="GET" id="registration-form">
+                <div class="form-input-container">
+                    <label for="full-name">Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Name" required>
+                </div>
+    
+                <div class="form-input-container">
+                    <label for="email-address">E-mail</label>
+                    <input type="email" id="email-address" name="email-address" placeholder="E-mail" required>
+                </div>
+    
+                <div class="form-input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                
+                <div class="form-input-container">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+                    <p id="error-message"></p>
+                </div>
+    
+                <div id="form-buttons-container">
+                    <a href="../html/05-login-pg-structure.html">
+                        <button id="go-back-button" type="button">Go Back</button>
+                    </a>
+
+                    <button id="create-account-button" type="submit">Create account</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="../js/06-signup-pg-script.js"></script>
+
+</body>
+</html>

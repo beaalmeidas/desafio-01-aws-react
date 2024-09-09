@@ -1,0 +1,252 @@
+/* GENERAL STYLING ------------------------------------------- */
+@import url(../css/main-style.css);
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-pg-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+header {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* ARROW TO THE PREVIOUS SCREEN ------------------------------ */
+.back-arrow {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    fill: #000;
+    transition: fill 0.2s ease-in-out;
+}
+
+.back-arrow:hover .svg-icon {
+    fill: #FF6064;
+}
+
+
+/* BUTTONS FOR LOGIN WITH OTHER ACCOUNTS --------------------- */
+a {
+    text-decoration: none;
+}
+
+#account-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.login-with-account-buttons {
+    background-color: #fff;
+    font-size: 15px;
+    color: #000;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.login-with-account-buttons:hover {
+    background-color: #DDDDDD;
+}
+
+.other-account-logos {
+    max-width: 20px;
+    height: auto;
+}
+
+
+/* BUTTON FOR LOGIN WITH EMAIL ------------------------------- */
+#email-button-container {
+    margin-top: 40px;
+}
+
+#login-with-email-button {
+    background-color: #FF6064;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 100px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#login-with-email-button:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* LINK TO SIGNUP SCREEN ------------------------------------- */
+#sign-up-container {
+    margin-top: 20px;
+}
+
+#sign-up-link {
+    color: #FF6064;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#sign-up-link:hover {
+    font-weight: bold;
+}
+
+
+/* MOBILE RESPONSIVENESS ------------------------------------- */
+@media (max-width: 767px) {
+    header {
+        font-weight: bold;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .back-arrow{
+        position: absolute;
+        top: 7vh;
+        left: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 768px ------------------------- */
+@media (min-width: 768px) {
+    body {
+        height: 80vh;
+    }
+
+    header {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        font-size: 4vh;
+    }
+
+    .login-with-account-buttons {
+        font-size: 2.5vh;
+    }
+
+    .other-account-logos {
+        max-width: 3vh;
+    }
+
+    #login-with-email-button {
+        font-size: 3vh;
+        margin-top: -10vh;
+    }
+
+    #sign-up-container {
+        font-size: 2vh;
+    }
+
+    .back-arrow {
+        position: absolute;
+        top: 13vh;
+        left: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 70%;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1024px ------------------------- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        height: 90vh;
+    }
+
+    header {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 4vh;
+    }
+
+    .login-with-account-buttons {
+        font-size: 2.5vh;
+    }
+
+    #login-with-email-button {
+        font-size: 2vh;
+    }
+
+    #sign-up-container {
+        font-size: 2vh;
+    }
+
+    .back-arrow {
+        position: absolute;
+        top: 13vh;
+        left: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1440px ------------------------- */
+@media (min-width: 1440px) and (max-width: 1440px) {
+    body {
+        height: 90vh;
+    }
+
+    header {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 4vh;
+    }
+
+    .login-with-account-buttons {
+        font-size: 2.5vh;
+    }
+
+    #login-with-email-button {
+        font-size: 2vh;
+    }
+
+    #sign-up-container {
+        font-size: 2.5vh;
+    }
+
+    .back-arrow {
+        position: absolute;
+        top: 15vh;
+        left: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/05-login-pg-style.css">
+    
+    <title>Login – Pomo</title>
+</head>
+
+<body>
+
+    <!-- Arrow to go to previous screen -->
+    <a class="back-arrow" href="../html/04-presentation3-structure.html">
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+        </svg>
+    </a>
+
+    <main id="login-pg-items">
+        <header>
+            <p>Let's log you in</p>
+        </header>
+
+        <!-- Buttons for login with Facebook, Google and Apple accounts -->
+        <div id="account-buttons-container">
+            <a href="https://www.facebook.com/login.php/" target="_blank">
+                <button class="login-with-account-buttons">
+                    <img class="other-account-logos" src="../assets/logos/facebook-logo.svg" alt="Facebook logo">
+                    Continue with Faceboook
+                </button>
+            </a>
+
+            <a href="https://accounts.google.com.br/" target="_blank">
+                <button class="login-with-account-buttons">
+                    <img class="other-account-logos" src="../assets/logos/google-logo.svg" alt="Google logo">
+                    Continue with Google
+                </button>
+            </a>
+
+            <a href="https://appleid.apple.com/" target="_blank">
+                <button class="login-with-account-buttons">
+                    <img class="other-account-logos" src="../assets/logos/apple-logo.svg" alt="Apple logo">
+                    Continue with Apple
+                </button>
+            </a>
+        </div>
+
+        <p>Or</p>
+
+        <div id="email-button-container">
+            <button id="login-with-email-button">Log in with E-mail</button>
+        </div>
+
+        <div id="sign-up-container">
+            <p>Don't have an account? 
+                <a href="../html/06-signup-pg-structure.html" id="sign-up-link">Sign up</a>
+            </p>
+        </div>
+    </main>
+    
+</body>
+</html>
