@@ -1,4 +1,4 @@
-/* Estilização geral ----------------------------------------- */
+/* GENERAL STYLING ------------------------------------------- */
 body {
     background-color: #ff6064;
     margin: 0;
@@ -9,8 +9,8 @@ body {
 }
 
 
-/* Logo e gif de carregamento -------------------------------- */
-.loading-page-items {
+/* LOGO AND LOADING GIF -------------------------------------- */
+#loading-page-items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,10 +18,90 @@ body {
     align-items: center;
 }
 
-.img-pomo-logo {
-    max-width: 200px;
+#pomo-logo {
+    max-width: 15vw;
 }
 
-.loading-gif {
-    max-width: 50px;
+#loading-gif {
+    max-width: 3vw;
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 375px AND LARGER --------------- */
+@media (min-width: 375px) {
+    #loading-page-items {
+        height: 60%;
+    }
+
+    #pomo-logo {
+        max-width: 50vw;
+    }
+
+    #loading-gif {
+        max-width: 15vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 768px ------------------------- */
+@media (min-width: 768px) {
+    #loading-page-items {
+        height: 55%;
+    }
+
+    #pomo-logo {
+        max-width: 30vw;
+    }
+
+    #loading-gif {
+        max-width: 10vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1024px ------------------------- */
+@media (min-width: 1024px) {
+    #loading-page-items {
+        height: 60%;
+    }
+
+    #pomo-logo {
+        max-width: 25vw;
+    }
+    
+    #loading-gif {
+        max-width: 8vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1440px ------------------------- */
+@media (min-width: 1440px) {
+    #loading-page-items {
+        height: 60%;
+    }
+
+    #pomo-logo {
+        max-width: 15vw;
+    }
+
+    #loading-gif {
+        max-width: 4vw;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1920px ------------------------- */
+@media (min-width: 1920px) {
+    #loading-page-items {
+        height: 60%;
+    }
+
+    #pomo-logo {
+        max-width: 15vw;
+    }
+
+    #loading-gif {
+        max-width: 2vw;
+    }
 }

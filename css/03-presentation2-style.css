@@ -1,4 +1,4 @@
-/* Estilização geral ----------------------------------------- */
+/* GENERAL STYLING ------------------------------------------- */
 @import url(../css/main-style.css);
 
 body {
@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-#screen-02-items {
+#presentation2-items {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 }
 
 
-/* Seta de navegação ----------------------------------------- */
+/* ARROW TO THE PREVIOUS SCREEN ------------------------------ */
 .back-arrow {
     position: absolute;
     top: 80px;
@@ -40,13 +40,13 @@ body {
 }
 
 
-/* Ilustração ------------------------------------------------ */
-#screen-02-illustration {
+/* ILLUSTRATION ---------------------------------------------- */
+#presentation2-illustration {
     max-width: 400px;
 }
 
 
-/* Texto, paginação e botão ---------------------------------- */
+/* CONTAINER WITH PAGINATION AND NEXT BUTTON ----------------- */
 .container {
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 }
 
 
-/* Indicadores de paginação ---------------------------------- */
+/* PRESENTATION PROGRESS INDICATORS -------------------------- */
 .pagination {
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ body {
 }
 
 
-/* Botão 'Next' ---------------------------------------------- */
+/* BUTTON TO THE NEXT SCREEN --------------------------------- */
 #next-button {
     background-color: #FF6064;
     font-size: 13px;
@@ -102,4 +102,45 @@ body {
 
 #next-button:hover {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* MOBILE RESPONSIVENESS ------------------------------------- */
+@media (max-width: 767px) {
+    #presentation2-items {
+        width: 50vh;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #presentation2-text {
+        font-weight: bold !important;
+        font-size: 10vw;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #presentation2-illustration {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .back-arrow{
+        position: absolute;
+        top: 7vh;
+        left: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pagination {
+        margin-top: 10px;
+    }
+
+    #next-button {
+        width: 100%;
+        padding: 10x 50px;
+    }
 }

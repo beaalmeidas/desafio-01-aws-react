@@ -1,7 +1,7 @@
-// Função para redirecionar da página de carregamento para a página principal
+// Function to redirect to the presentation page
 function redirectToIndex() {
     window.location.href = "../html/02-presentation1-structure.html";
 }
 
-// Definindo tempo para execução da função de redirecionamento (4 segundos)
+// Redirection happens after 4 seconds
 setTimeout(redirectToIndex, 4000);
