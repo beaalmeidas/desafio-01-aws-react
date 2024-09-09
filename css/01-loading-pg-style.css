@@ -27,8 +27,8 @@ body {
 }
 
 
-/* RESPONSIVENESS FOR SCREENS 375px AND LARGER --------------- */
-@media (min-width: 375px) {
+/* MOBILE RESPONSIVENESS ------------------------------------- */
+@media (max-width: 767px) {
     #loading-page-items {
         height: 60%;
     }
@@ -60,7 +60,7 @@ body {
 
 
 /* RESPONSIVENESS FOR SCREENS 1024px ------------------------- */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
     #loading-page-items {
         height: 60%;
     }
@@ -76,7 +76,7 @@ body {
 
 
 /* RESPONSIVENESS FOR SCREENS 1440px ------------------------- */
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1919px) {
     #loading-page-items {
         height: 60%;
     }
