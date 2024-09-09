@@ -139,3 +139,114 @@ a {
         justify-content: center;
     }
 }
+
+
+/* RESPONSIVENESS FOR SCREENS 768px ------------------------- */
+@media (min-width: 768px) {
+    body {
+        height: 80vh;
+    }
+
+    header {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        font-size: 4vh;
+    }
+
+    .login-with-account-buttons {
+        font-size: 2.5vh;
+    }
+
+    .other-account-logos {
+        max-width: 3vh;
+    }
+
+    #login-with-email-button {
+        font-size: 3vh;
+        margin-top: -10vh;
+    }
+
+    #sign-up-container {
+        font-size: 2vh;
+    }
+
+    .back-arrow {
+        position: absolute;
+        top: 13vh;
+        left: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 70%;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1024px ------------------------- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        height: 90vh;
+    }
+
+    header {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 4vh;
+    }
+
+    .login-with-account-buttons {
+        font-size: 2.5vh;
+    }
+
+    #login-with-email-button {
+        font-size: 2vh;
+    }
+
+    #sign-up-container {
+        font-size: 2vh;
+    }
+
+    .back-arrow {
+        position: absolute;
+        top: 13vh;
+        left: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1440px ------------------------- */
+@media (min-width: 1440px) and (max-width: 1440px) {
+    body {
+        height: 90vh;
+    }
+
+    header {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 4vh;
+    }
+
+    .login-with-account-buttons {
+        font-size: 2.5vh;
+    }
+
+    #login-with-email-button {
+        font-size: 2vh;
+    }
+
+    #sign-up-container {
+        font-size: 2.5vh;
+    }
+
+    .back-arrow {
+        position: absolute;
+        top: 15vh;
+        left: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

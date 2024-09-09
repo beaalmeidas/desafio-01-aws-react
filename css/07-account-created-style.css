@@ -98,6 +98,7 @@ body {
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
+
 /* Account info text */
 #account-info {
     position: absolute;
@@ -123,6 +124,7 @@ body {
     font-weight: bold;
     font-style: normal;
 }
+
 
 /* Profile picture */
 #profile-pic-placeholder {
@@ -260,5 +262,156 @@ body {
     #login-pg-button {
         position: static;
         margin-top: 40vh;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1024px ------------------------- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    #account-created-pg-items {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    #congratulations-container {
+        width: 50%;
+        padding: 30px;
+    }
+
+    #congratulations-title {
+        font-size: 30px;
+    }
+
+    #congratulations-text {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    #account-created-illustration {
+        max-width: 80%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    #msg-and-info-container {
+        width: 50%;
+        padding: 20px;
+    }
+
+    #pomo-logo {
+        max-width: 20%;
+        margin-top: 30px;
+    }
+
+    #welcome-title {
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #msg-and-info-container p {
+        font-size: 12px;
+    }
+
+    #account-card {
+        width: 400px;
+        height: auto;
+    }
+
+    #profile-pic-placeholder-wrapper {
+        width: 80px;
+        height: 80px;
+        margin-left: -4vh;
+        margin-top: -4vh;
+    }
+
+    #profile-pic-placeholder {
+        width: 65px;
+        height: 65px;
+    }
+    
+    #account-info {
+        text-align: left;
+        margin-top: 5vh;
+        margin-left: 18vh;
+    }
+
+    #login-pg-button {
+        position: static;
+        margin-top: 17vh;
+        margin-bottom: 0;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1440px ------------------------- */
+@media (min-width: 1440px) and (max-width: 1440px) {
+    #account-created-pg-items {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    #congratulations-container {
+        width: 50%;
+        padding: 50px;
+    }
+
+    #congratulations-title {
+        font-size: 50px;
+    }
+
+    #congratulations-text {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    #account-created-illustration {
+        max-width: 90%;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    #msg-and-info-container {
+        width: 50%;
+        padding: 30px;
+    }
+
+    #pomo-logo {
+        max-width: 25%;
+    }
+
+    #welcome-title {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    #msg-and-info-container p {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    #account-card {
+        width: 600px;
+        height: 150px;
+    }
+
+    #profile-pic-placeholder-wrapper {
+        width: 90px;
+        height: 90px;
+    }
+
+    #profile-pic-placeholder {
+        width: 70px;
+        height: 70px;
+    }
+
+    #account-info {
+        text-align: left;
+        margin-top: 5vh;
+        margin-left: 10vh;
+    }
+
+    #login-pg-button {
+        position: static;
+        margin-top: 15vh;
     }
 }

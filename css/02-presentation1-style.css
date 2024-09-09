@@ -113,3 +113,66 @@ body {
         padding: 10x 50px;
     }
 }
+
+
+/* RESPONSIVENESS FOR SCREENS 768px ------------------------- */
+@media (min-width: 768px) {
+    #presentation1-items {
+        width: 50vh;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #presentation1-text {
+        font-size: 1.5vw;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #presentation1-illustration {
+        max-width: 120%;
+        height: auto;
+    }
+
+    .pagination {
+        margin-top: 10px;
+    }
+
+    #next-button {
+        font-size: 2.5vh;
+        width: auto;
+        padding: 10x 5px;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1024px ------------------------- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        height: 75vh;
+    }
+
+    #presentation1-illustration {
+        max-width: 50%;
+        margin-top: 10vh;
+    }
+}
+
+
+/* RESPONSIVENESS FOR SCREENS 1440px ------------------------- */
+@media (min-width: 1440px) and (max-width: 1440px) {
+    #presentation1-illustration {
+        max-width: 80%;
+    }
+
+    #presentation1-text {
+        font-size: 2vh;
+    }
+
+    #next-button {
+        width: 100%;
+        padding: 10x 50px;
+        font-size: 2vh;
+    }
+}
