@@ -7,32 +7,33 @@
     
     <link rel="stylesheet" href="../css/02-presentation1-style.css">
     
-    <title>Apresentação – Pomo</title>
+    <title>Welcome to Pomo</title>
 
 </head>
 
 <body>
     
-    <main id="screen-01-items">
+    <main id="presentation1-items">
         <figure>
-            <img src="../assets/presentation1-img.svg" alt="Imagem da tela 01" id="screen-01-illustration">
+            <img id="presentation1-illustration" src="../assets/presentation1-img.svg" alt="Presentation screen 1 Illustration">
         </figure>
 
         <div class="container">
-            <p>Easy task & work management with Pomo</p>
+            <p id="presentation1-text">Easy task & work management with Pomo</p>
     
-            <ul class="pagination">
-                <li data-page="screen-01" class="active"></li>
-                <li data-page="screen-02"></li>
-                <li data-page="screen-03"></li>
-            </ul>
+            <!-- Presentation progress indicators -->
+            <nav>
+                <ul class="pagination" aria-label="Pagination for the presentation screens"></ul>
+                    <li data-page="presentation1" class="active"></li>
+                    <li data-page="presentation2"></li>
+                    <li data-page="presentation3"></li>
+                </ul>
+            </nav>
     
             <a href="../html/03-presentation2-structure.html">
                 <button id="next-button">Next</button>
             </a>
-
         </div>
-
     </main>
 
 </body>

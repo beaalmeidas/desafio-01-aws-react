@@ -13,13 +13,12 @@
 <body>
     
     <main id="signup-pg-items">
-
         <figure id="logo-container">
-            <img src="../assets/pomo-logo.svg" alt="Logo do Pomo">
+            <img src="../assets/pomo-logo.svg" alt="Pomo Logo">
         </figure>
 
+        <!-- Form for user registration -->
         <div id="form-container">
-
             <header id="form-header">
                 <p>Create your account</p>
             </header>
@@ -28,25 +27,21 @@
                 <div class="form-input-container">
                     <label for="full-name">Name</label>
                     <input type="text" id="full-name" name="full-name" placeholder="Name" required>
-                    <span id="name-error" class="error-message">Name must be at least 3 characters.</span>
                 </div>
     
                 <div class="form-input-container">
                     <label for="email-address">E-mail</label>
                     <input type="email" id="email-address" name="email-address" placeholder="E-mail" required>
-                    <span id="email-error" class="error-message">Please enter a valid email address.</span>
                 </div>
     
                 <div class="form-input-container">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Password" required>
-                    <span id="password-error" class="error-message">Password must be at least 8 characters.</span>
                 </div>
                 
                 <div class="form-input-container">
                     <label for="confirm-password">Confirm password</label>
                     <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
-                    <span id="confirm-password-error" class="error-message">Passwords do not match.</span>
                 </div>
     
                 <div id="form-buttons-container">
@@ -58,7 +53,6 @@
                 </div>
             </form>
         </div>
-
     </main>
 
     <script src="../js/06-signup-pg-script.js"></script>
